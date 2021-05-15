@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Kanye quotezzzz</title>
+        <style>
+            table {
+                border-collapse: collapse;
+            }
+            table,
+            th,
+            td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <form style="margin-left: 40%; margin-right: auto">
+                <label for="quotesNum">Number of quotes:</label><br />
+                <input type="number" id="quotesNum" name="quotesNum" /><br />
+            </form>
+            <button style="margin-left: 40%;" onclick="fetchQuotes()">Get em!</button>
+            <br /><br />
+            <div id="result" style="width: 90%;"></div>
+            <script src="./client.js"></script>
+        </div>
+    </body>
+</html>
